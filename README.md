@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph//file/aae78d09ee47dcb56985f.jpg">
+  <img src="https://telegra.ph/file/692f238a9642efeea2b63.jpg">
 </p>
 
 # YaeRobot
