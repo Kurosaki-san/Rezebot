@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hi Thᴇrᴇ Bᴀʙᴇ! I'ʍ Yᴀᴇ Miᴋᴏ [✨](https://telegra.ph/file/e49fc8b774c8807f0a417.jpg)
-A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Gᴇnshin Iʍᴩᴀᴄᴛ Thᴇʍᴇ.
+PM_START_TEXT = """ Hi Thᴇrᴇ! I'ʍ ʜɪᴍɪᴋᴏ ᴛᴏɢᴀ [⚔️](https://telegra.ph/file/578c13e83443bd3762fa6.mp4)
+A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On My Hᴇʀᴏ Aᴄᴀᴅᴇᴍɪᴀ.
 Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
 ‣ Wᴀrning sysᴛᴇʍ.
 ‣ Arᴛifiᴄiᴀl inᴛᴇlligᴇnᴄᴇ.
@@ -167,15 +167,15 @@ def start(update: Update, context: CallbackContext):
             text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="𝙽𝚎𝚝𝚠𝚘𝚛𝚔", url=f"https://t.me/TheKaizuryu"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="𝙶𝚛𝚘𝚞𝚙", url=f"https://t.me/Ahjin_Chat_Kaizuryu"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url=f"https://t.me/xelcius"),
         InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
+            text="𝙼𝚢 𝙸𝚗𝚏𝚘", callback_data="Yae_"
         ),
     ],
     [
@@ -199,10 +199,10 @@ def start(update: Update, context: CallbackContext):
             keyboard = InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton(
-                        text="SUPPORT", 
+                        text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", 
                         url=f"https://t.me/{SUPPORT_CHAT}"),
                     InlineKeyboardButton(
-                        text="DEVLOPER", 
+                        text="𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛", 
                         url=f"https://t.me/{OWNER_USERNAME}")
                     
                 ],
@@ -240,8 +240,8 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/Anime_Chat_XKaizuryu"),
-                     InlineKeyboardButton(text="News", url="https://t.me/TheKaizuryu")
+                     InlineKeyboardButton(text="Support", url="https://t.me/Toga_Support"),
+                     InlineKeyboardButton(text="News", url="https://t.me/Toga_Logs")
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="Yae_back")
@@ -259,15 +259,15 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="𝙽𝚎𝚝𝚠𝚘𝚛𝚔", url=f"https://t.me/TheKaizuryu"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="𝙶𝚛𝚘𝚞𝚙", url=f"https://t.me/Ahjin_Chat_Kaizuryu"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="𝙾𝚠𝚗𝚎𝚛", url=f"https://t.me/Kuro_Tetsuro"),
         InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
+            text="𝚃𝚘𝚐𝚊 𝙸𝚗𝚏𝚘", callback_data="Yae_"
         ),
     ],
     [
